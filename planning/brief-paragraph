@@ -1,0 +1,7 @@
+This app will hopefully be a highly effective job application website where a company can post a job; and a User can apply to those jobs
+ and also create/read/update/delete their job applications for a company. 
+This app will also be able to create questions from the user and also get those questions answered by the company directly. So that 
+    the users can have a better understanding of the job position and speak to the company directly. 
+The point is to create better transparence between employee and employer.
+
+My models will be Company, User, Question, Answer

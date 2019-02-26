@@ -7,7 +7,7 @@
         <li>Description</li>
         <li>Time stamp</li>
         <li>Severity</li>
-
+<p></p>
 <p>- Every REPORT will have a open dialogue section where citizens can create and read comments made from other citizens.</p>
 
 <p>- The comment section will have the following criteria</p>

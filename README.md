@@ -21,12 +21,6 @@ Models:
 <p>- Open dialogue is created because every Report will have a comment section that allows communcation.</p>
 
 <h1>Technoligies Used</h1>
-<<<<<<< HEAD
 <p>- Javascript</p>
     <p>- Express</p>
     <p>- MongoDB</p>
-=======
-- Javascript
-    - Express
-    - MongoDB
->>>>>>> b9243b2943ecb5bf41ca4a6b68b96fe70faecf68

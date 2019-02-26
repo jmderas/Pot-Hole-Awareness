@@ -1,4 +1,4 @@
-# Project-2-Joey-
+# Project-2-Joey
 
 An application for reporting and analyzing pot-holes in the mean streets of DC to help drivers avoid damage to their vehicle all while notifying the government of needed street repairs. Thus making the citizens of the District of Columbia safer!
 
@@ -21,6 +21,12 @@ Models:
 <p>- Open dialogue is created because every Report will have a comment section that allows communcation.</p>
 
 <h1>Technoligies Used</h1>
+<<<<<<< HEAD
 <p>- Javascript</p>
     <p>- Express</p>
     <p>- MongoDB</p>
+=======
+- Javascript
+    - Express
+    - MongoDB
+>>>>>>> b9243b2943ecb5bf41ca4a6b68b96fe70faecf68

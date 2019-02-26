@@ -1,7 +1,6 @@
 # Project-2-Joey-
 
-This website will be used for assisting the day-to-day D.C street driver, by allowing them to see real-time posts of potholes in their area. 
-My website will allow users to annymonusly report a pot-hole in the streets and upload pictures of them to help drivers avoid damage to their vehicle thus making the citizens of the District of Columbia safer and notifying the government of street repairs.
+An application for reporting and analyzing pot-holes in the mean streets of DC to help drivers avoid damage to their vehicle all while notifying the government of needed street repairs. Thus making the citizens of the District of Columbia safer!
 
 Models:
 - Reports
@@ -14,3 +13,14 @@ Models:
   - Content
   - Time stamp
   - Report name/ID
+
+<h1>CURRENT FEATURES</h1>
+- Citizen's can create, access and update reports of potholes in the area.
+- Citizens will have a time stamp of when the report was created to check its relativity.
+- Citizens can leave photos along with a description and severity level of the potholes.
+- Open dialogue is created because every Report will have a comment section that allows communcation.
+
+<h1>Technoligies Used</h1>
+- Javascript
+    - Express
+    - MongoDB

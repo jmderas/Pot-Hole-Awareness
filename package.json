@@ -1,0 +1,23 @@
+{
+  "name": "job-application",
+  "version": "1.0.0",
+  "description": "An application for reporting and analyzing pot-holes in the mean streets of DC to help drivers avoid damage to their vehicle all while notifying the government of needed street repairs. Thus making the citizens of the District of Columbia safer!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmderas/Project-2-Joey-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmderas/Project-2-Joey-/issues"
+  },
+  "homepage": "https://github.com/jmderas/Project-2-Joey-#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

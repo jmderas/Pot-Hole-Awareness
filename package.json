@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jmderas/Project-2-Joey-#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "hbs": "^4.0.2"
   }
 }

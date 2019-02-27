@@ -1,33 +1,20 @@
 const express = require ("express");
 const router = express.Router();
+const reportsController = require('../controllers/reports');
 
-router.get("/", function(req, res) {
-    res.send("index");
-});
+router.get("/", reportsController.index);
 
-router.get("/new", function(req, res) {
-    res.send("new");
-});
+router.get("new", reportsController.new);
 
-router.post("/", function(req, res) {
-    res.redirect('/');
-});
+router.post("/", reportsController.create);
 
-router.get("/:id", function(req, res) {
-    res.send(`hello ${req.params.id}`)
-});
+router.get("/:id", reportsController.show);
 
-router.get("/:id/edit", function(req, res) {
-    res.send(`edit ${req.params.id}`);
-});
+router.get("/:id/edit", reportsController.edit);
 
-router.put("/:id", function(req, res) {
-    res.redirect("/");
-});
+router.put("/:id", reportsController.update);
 
-router.delete("/:id", function(req, res) {
-    res.redirect("/");
-});
+router.delete("/:id", reportsController.delete);
 
 
 module.exports = router;

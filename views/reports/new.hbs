@@ -1,9 +1,12 @@
 <section class="form-container">
-  <h4>Report a pothole</h4>
+  <h1>Report A Pot-Hole</h1>
   <form action="/reports" method="post" >
     <p class="input-field">
-        <input type="text" name="reports[severity]">
+        {{!-- <input type="text" name="reports[severity]"> --}}
       <textarea name="reports[content]" cols="30" rows="10" placeholder="Message"></textarea>
+      <p class="input-field">
+      <textarea name="reports[content]" cols="30" rows="1" placeholder="Severity"></textarea>
+    </p>
     </p>
     <p class="input-field">
       <input type="submit" value="Report" class="btn btn-success">

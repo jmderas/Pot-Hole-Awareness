@@ -33,9 +33,9 @@ module.exports = {
           });
         });
     },
-    delete:  function(req, res) {
-        Reports.deleteOne({_id: req.params.id}).then(reports =>{
-            res.redirect('/');
-        })
+    delete: function(req, res) {
+        Reports.findByIdAndRemove({_id: req.params.id }).then(reports =>{
+            res.redirect("/");
+        });
     }
 };

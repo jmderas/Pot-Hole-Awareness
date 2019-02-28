@@ -1,7 +1,6 @@
 <p class="panel">
   {{> 'reports'}}
 </p>
-
 {{#if comments.length}}
   {{#each comments}}
     <div class="panel">
@@ -20,7 +19,7 @@
 <div class="panel">
   <div class="panel-body">
     <h4>Add a comment:</h6>
-    <form method="POST" action="/reports/{{id}}" >
+    {{!-- <form method="POST" action="/reports/{{id}}" > --}}
       <p class="input-field inline col-sm-10">
         <label for="content"></label>
         <input type="text" name="content" id="">
@@ -28,6 +27,6 @@
       <p class="input-field inline col-sm-2">
         <input class="btn btn-success" type="submit" value="Submit">
       </p>
-    </form>
+    {{!-- </form> --}}
   </div>
 </div>

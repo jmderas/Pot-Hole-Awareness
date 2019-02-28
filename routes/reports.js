@@ -4,14 +4,14 @@ const reportsController = require('../controllers/reports.js');
 
 
 router.post("/", reportsController.create);
-
 router.get("/new", reportsController.new);
+
 
 router.get("/:id", reportsController.show);
 
 router.get("/:id/edit", reportsController.edit);
 
-router.post("/:id", reportsController.update);
+router.put("/:id", reportsController.update);
 
 router.delete("/:id", reportsController.delete);
 

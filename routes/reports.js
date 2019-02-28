@@ -1,10 +1,11 @@
 const express = require ("express");
 const router = express.Router();
-const reportsController = require('../controllers/reports');
+const reportsController = require('../controllers/reports.js');
 
-router.get("new", reportsController.new);
 
 router.post("/", reportsController.create);
+
+router.get("/new", reportsController.new);
 
 router.get("/:id", reportsController.show);
 

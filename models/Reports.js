@@ -1,4 +1,4 @@
-const mongoose = require('..db/connection')
+const mongoose = require('../db/connection')
 
 const Comment = new mongoose.Schema({
     content: String,
@@ -9,7 +9,6 @@ const Comment = new mongoose.Schema({
 })
 
 const Reports = new mongoose.Schema({
-    photo: String,
     content: String,
     timeStamp: {
         type: Date,
@@ -21,4 +20,7 @@ const Reports = new mongoose.Schema({
 
 
 
-module.exports = mongoose.model("Reports", Reports);
+module.exports = {
+    Reports: mongoose.model("Reports", Reports),
+    Comment: mongoose.model("Comment", Comment)
+} 

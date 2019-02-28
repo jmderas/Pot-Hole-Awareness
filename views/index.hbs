@@ -1,1 +1,9 @@
-<h1>Index</h1> 
+<div class="container">
+{{#if reports}}
+  <div class="card">
+    {{#each reports}}
+       {{> 'reports'}}
+    {{/each}}
+  </div>
+{{/if}}
+</div>

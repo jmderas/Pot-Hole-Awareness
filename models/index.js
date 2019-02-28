@@ -1,14 +1,24 @@
 const mongoose = require('..db/connection')
 
+const Comment = new mongoose.Schema({
+    content: String,
+    timeStamp: {
+        type: Date,
+        default: Date.now()
+    }
+})
+
 const Reports = new mongoose.Schema({
-    name: String,
-    photo: 
-    description: String,
+    photo: String,
+    content: String,
     timeStamp: {
         type: Date,
         default: Date.now()
     },
-    severity: String
+    severity: String,
+    comments: [Comment]
 })
+
+
 
 module.exports = mongoose.model("Reports", Reports);

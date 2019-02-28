@@ -26,7 +26,7 @@ module.exports = {
         let { content } = req.body;
         Reports.findOne({ _id: req.params.id }).then(reports => {
           reports.comments.push({
-            content,
+            content
           });
           reports.save(err => {
             res.redirect(`/reports/${reports._id}`);
@@ -34,6 +34,8 @@ module.exports = {
         });
     },
     delete:  function(req, res) {
-        res.redirect("/");
+        Reports.deleteOne({_id: req.params.id}).then(reports =>{
+            res.redirect('/');
+        })
     }
 };

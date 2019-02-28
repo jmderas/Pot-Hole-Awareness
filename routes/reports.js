@@ -11,7 +11,7 @@ router.get("/:id", reportsController.show);
 
 router.get("/:id/edit", reportsController.edit);
 
-router.put("/:id", reportsController.update);
+router.post("/:id", reportsController.update);
 
 router.delete("/:id", reportsController.delete);
 

@@ -14,7 +14,6 @@ const Reports = new mongoose.Schema({
         type: Date,
         default: Date.now()
     },
-    severity: String,
     comments: [Comment]
 })
 

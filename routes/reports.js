@@ -4,8 +4,8 @@ const reportsController = require('../controllers/reports.js');
 
 
 router.post("/", reportsController.create);
-router.get("/new", reportsController.new);
 
+router.get("/new", reportsController.new);
 
 router.get("/:id", reportsController.show);
 

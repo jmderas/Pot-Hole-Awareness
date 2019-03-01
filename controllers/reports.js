@@ -15,8 +15,8 @@ module.exports = {
     },
     show: function(req, res) {
         Reports.findOne({_id: req.params.id})
-        .exec(function(err, reports) {
-         res.render("reports/show", reports);
+        .exec(function(err, report) {
+            res.render("reports/show", report);
        })
     },
     edit: function(req, res) {

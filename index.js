@@ -11,4 +11,4 @@ app.use(methodOverride("_method"));
 app.use(require('./routes/index'))
 hbs.registerPartials(__dirname + "/views/partials");
 
-app.listen(3000, () => console.log("listening on Port 3000"));
+app.listen(3050, () => console.log("listening on Port 3050"));

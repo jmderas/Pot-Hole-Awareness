@@ -8,5 +8,3 @@ Reports.remove({}).then(function(){
           process.exit()
       })
     });
-
-    

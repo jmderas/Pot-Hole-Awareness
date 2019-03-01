@@ -8,7 +8,6 @@ Models:
   - Photos
   - Description
   - Time stamp
-  - Severity
 - Comments
   - Content
   - Time stamp

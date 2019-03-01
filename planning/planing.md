@@ -6,7 +6,6 @@
         <li>Photos</li>
         <li>Description</li>
         <li>Time stamp</li>
-        <li>Severity</li>
 <p></p>
 <p>- Every REPORT will have a open dialogue section where citizens can create and read comments made from other citizens.</p>
 

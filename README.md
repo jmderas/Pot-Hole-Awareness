@@ -1,4 +1,4 @@
-# Project-2-Joey
+# Pot-Hole-Awareness
 
 An application for reporting and analyzing pot-holes in the mean streets of DC to help drivers avoid damage to their vehicle all while notifying the government of needed street repairs. Thus making the citizens of the District of Columbia safer!
 
